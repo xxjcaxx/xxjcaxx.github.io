@@ -1,0 +1,42 @@
+#partida {
+    float: left;
+}
+
+
+.canvas {
+    width: 900px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 2px;
+    background-color: lightgray ;
+}
+
+#marcador {
+    float: left;
+    border: 1px solid black;
+    margin: 2px;
+}
+
+#dialogo {
+    position: absolute;
+    z-index: 1;
+    background-color: #333;
+    padding: 10px;
+    width: 500px;
+    height: 100px;
+    left: 100px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: #8a8;
+    border: none;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    width: 70px;
+    color: #fff;
+}
