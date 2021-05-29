@@ -28,7 +28,7 @@
         }
     }
 
-    function dibujarLetras(canvas){
+    function dibujarLetras(){
         let ctx = canvas.getContext('2d');
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
@@ -103,7 +103,8 @@
             console.log(event.key);
             puntos = puntos + listaLetras.filter(l=> l.letra == event.key).length * 100;
             spanPuntos.innerHTML = puntos;
-            listaLetras =  listaLetras.filter(l=>l.letra != event.key);            
+            listaLetras =  listaLetras.filter(l=>l.letra != event.key);   
+            dibujarLetras();         
         })
 
 
